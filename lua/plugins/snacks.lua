@@ -1,12 +1,8 @@
-return {
-  {
-    "snacks.nvim",
-    opts = {
-      silent = "true",
-      indent = {
-        hl = "SnacksIndent",
-        animate = { enabled = false },
-      },
+return { {
+  "snacks.nvim",
+  opts = {
+    indent = {
+      animate = { enabled = false },
     },
   },
-}
+} }
