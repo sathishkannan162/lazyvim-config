@@ -9,6 +9,8 @@ return {
         { path = "LazyVim", words = { "LazyVim" } },
         { path = "snacks.nvim", words = { "Snacks" } },
         { path = "saghen/blink.cmp", words = { "BlinkCmp" } },
+
+        { path = "pocco81/auto-save.nvim", words = { "AutoSave" } },
         { path = "lazy.nvim", words = { "LazyVim" } },
       },
     },
