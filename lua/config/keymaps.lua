@@ -5,3 +5,7 @@
 local map = LazyVim.safe_keymap_set
 
 map("i", "jk", "<esc>", { desc = "Esc" })
+
+map({ "n", "x" }, "<leader>fm", function()
+  LazyVim.format({ force = true })
+end, { desc = "Format" })
