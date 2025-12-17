@@ -4,3 +4,4 @@
 
 vim.g.autoformat = false
 vim.opt.autowrite = false
+vim.diagnostic.config({ virtual_text = false })
